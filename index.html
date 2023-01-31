@@ -1,48 +1,44 @@
 <!DOCTYPE html>
-
 <html lang="es">
-    
     <head>
         <meta charset="UTF-8"> 
         <meta name="viewport" content="width=device-width">
         <title>Encriptador Alura</title>
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     </head>
-
     <body>
-
         <header>
-            <div class="logo">
-                <h1><img src="imagenes/logo.png"></h1>
-            </div>
+            <img class="icono" src="Imagenes/Icono.png" alt="Logo de la pagina del incriptador">
         </header>
-        
         <main>
-
             <section class="primaria">
-
-                <div class="">
-                    
+                <textarea class="textArea" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+                <div>
+                    <h1 class="informacion">&#33; Solo letras minúsculas y sin acentos</h1>
                 </div>
-
-                <div class="">
-                    
+                <div class="botones">
+                    <button class="botonEncriptar">Encriptar</button>
+                    <button class="botonDesencriptar">Desencriptar</button>
                 </div>
-
-
             </section>
-            
             <section class="secundaria">
-    
-                
+                <textarea class="mensaje" cols="20" rows="10"></textarea>
+                <div>
+                    <p class="primerTexto">Ningún mensaje fue encontrado</p>
+                    <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+
+                <!--<div>
+                    <button class="botonCopiar">Copiar</button>
+                </div>-->
             </section>
-            
         </main>
-        
         <footer>
             <p class="copyright">&copy Copyright Encriptador Alura - 2023</p>
         </footer>
-        
     </body>
 </html>
