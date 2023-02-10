@@ -8,8 +8,7 @@ main{
   margin: auto;
   width: 960px;
   height: 650px;
-  padding: 5px;
-  background: green;
+  padding: 2%;
 }
 .icono{
   float: left;
@@ -21,50 +20,68 @@ main{
 .izquierda{
   float: left;
   width: 70%;
-  height: 95%;
+  height: 100%;
   border-radius: 24px;
-  background: red;
 }
 .primerTexto{
   float: left;
   width: 80%;
-  height: 90%;
+  height: 55%;
   margin-left: 10%;
-  margin-top: 15%;
+  margin-top: 20%;
   text-transform: lowercase;
   border: none;
-  outline: none;
+  resize: none;
   font-size: 32px;
   color: #0A3871;
   background: #F3F5FC;
 }
-::placeholder{
-  color: #0A3871;
+::placeholder { color: #0A3871; }
+  .primerTexto:focus {
+      outline: none;
+    }
+.vector{
+  float: left;
+  margin-left: 12%;
+  margin-top: 3.5%;
+  padding-right: 1%;
+}
+.informacion{
+  float: left;
+  width: 70%;
+  height: auto;
+  margin-left: 5%;
+  font-size: 12px;
+  color: #495057;
+  font-size:16px;
 }
 .botones{
   float: left;
   width: 70%;
   height: auto;
-  margin-left: 10%;
+  margin-left: 12%;
   padding: 20px;
   border-radius: 32px;
 }
 .botonEncriptar{
   width: 200px;
-  height: 30px;
-  border-radius: 10px;
+  height: 35px;
+  border-radius: 15px;
+  margin-left: 20px;
   background-color: #0A3871;
   border: 1px solid #0A3871;
+  font-size: 16px;
   color: white;
   cursor: pointer;
 }
 .botonDesencriptar{
   width: 200px;
-  height: 30px;
-  border-radius: 10px;
+  height: 35px;
+  border-radius: 15px;
   margin-left: 30px;
   background: #e9eaf1;
   border: 1px solid #0A3871;
+  font-size: 16px;
   color: #0A3871;
   cursor: pointer;
 }
@@ -72,28 +89,47 @@ main{
   float: right;
   width: 30%;
   height: 95%;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
   border-radius: 24px;
-  background: blue;
+  background: #FFFFFF;
 }
 .munheco{
   width: 90%;
   height: auto;
-  margin-left: 2%;
+  margin-left: 5%;
   margin-top: 20%;
 }
 .mensaje{
-  margin-left: 7%;
   margin-top: 5%;
+  font-size: 24px;
+  text-align: center;
 }
 .segundoTexto{
   float: left;
-  width: 80%;
-  height: 60%;
-  margin-left: 10%;
+  width: 90%;
+  height: 40%;
+  margin-left: 5%;
   text-transform: lowercase;
   border: none;
+  resize: none;
   outline: none;
-  font-size: 15px;
+  font-size: 16px;
+  text-align: center;
   color: #0A3871;
-  background: #F3F5FC;
+  background: #FFFFFF;
+}
+.botonCopiar{
+  float: left;
+  width: 200px;
+  height: 35px;
+  border-radius: 15px;
+  margin-left: 16%;
+  margin-top: 5%;
+  background-color: #0A3871;
+  border: 1px solid #0A3871;
+  font-size: 16px;
+  color: #0A3871;
+  background: #FFFFFF;
+  cursor: pointer;
+  display: none;
 }
