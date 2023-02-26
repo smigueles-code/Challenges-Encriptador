@@ -12,7 +12,7 @@ function encriptar() {
   document.getElementById("btnCopiar").style.display = "show";
   document.getElementById("btnCopiar").style.display = "inherit";
   document.getElementById("outputTexto").style.height = "80%";
-  document.getElementById("outputTexto").style.fontSize = "22px";
+  document.getElementById("outputTexto").style.fontSize = "26px";
 }
 
 function desencriptar() {
@@ -29,7 +29,7 @@ function desencriptar() {
   document.getElementById("btnCopiar").style.display = "show";
   document.getElementById("btnCopiar").style.display = "inherit";
   document.getElementById("outputTexto").style.height = "80%";
-  document.getElementById("outputTexto").style.fontSize = "22px";
+  document.getElementById("outputTexto").style.fontSize = "26px";
 }
 
 function copiar() {
